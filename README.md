@@ -1,10 +1,15 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+Next.js Application
 
-## Getting Started
+This project is built using Next.js and was initialized with the official create-next-app starter template. It provides a modern development environment for building scalable and high-performance web applications using React.
 
-First, run the development server:
+Getting Started
 
-```bash
+Follow the steps below to run the application locally.
+
+1. Start the development server
+
+Run one of the following commands:
+
 npm run dev
 # or
 yarn dev
@@ -12,25 +17,44 @@ yarn dev
 pnpm dev
 # or
 bun dev
-```
+2. Open the application
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Once the server is running, open your browser and navigate to:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+http://localhost:3000
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+You should now see the application running locally.
 
-## Learn More
+Development
 
-To learn more about Next.js, take a look at the following resources:
+You can begin editing the application by modifying the file:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+app/page.tsx
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+The page will automatically reload whenever you make changes, allowing for a fast and efficient development workflow.
 
-## Deploy on Vercel
+Font Optimization
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+This project uses next/font, a built-in feature of Next.js, to automatically optimize and load the Geist font family, developed by Vercel. This ensures better performance and improved font loading behavior.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Learn More
+
+To learn more about Next.js, explore the following resources:
+
+Official Documentation – https://nextjs.org/docs
+
+Interactive Tutorial – https://nextjs.org/learn
+
+Source Code – https://github.com/vercel/next.js
+
+These resources provide detailed guidance on building applications with Next.js.
+
+Deployment
+
+The recommended way to deploy this application is using the Vercel platform, which offers seamless integration with Next.js.
+
+You can deploy your project directly from your Git repository using Vercel’s automated CI/CD pipeline.
+
+For detailed deployment instructions, refer to the official documentation:
+
+https://nextjs.org/docs/app/building-your-application/deploying
