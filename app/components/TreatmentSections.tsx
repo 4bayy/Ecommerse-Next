@@ -6,6 +6,10 @@ interface TreatmentSectionProps {
 }
 
 const TreatmentSection = ({ category }: TreatmentSectionProps) => {
+
+  console.log("Executed in SERVER COMPONENT");
+
+  
   return (
     <section id={category.id} className="scroll-mt-32">
       <div className="grid grid-cols-1 lg:grid-cols-5 gap-8 lg:gap-12">
