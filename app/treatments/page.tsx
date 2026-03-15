@@ -1,5 +1,6 @@
 "use client";
 
+
 import { useState } from "react";
 import SpaHeader from "../components/SpaHeader";
 import TreatmentSection from "../components/TreatmentSections";
@@ -13,8 +14,10 @@ const categoryNav = [
   { id: "beauty-services", label: "Beauty Services" },
 ];
 
-const Treatments = () => {
+const Treatments = async () => { 
   const [infoOpen, setInfoOpen] = useState(false);
+
+
 
   return (
     <div className="min-h-screen bg-background">

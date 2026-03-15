@@ -6,6 +6,10 @@ interface TreatmentSectionProps {
 }
 
 const TreatmentSection = ({ category }: TreatmentSectionProps) => {
+
+  console.log("Executed in SERVER COMPONENT");
+
+  
   return (
     <section id={category.id} className="scroll-mt-32">
       <div className="grid grid-cols-1 lg:grid-cols-5 gap-8 lg:gap-12">
@@ -32,7 +36,7 @@ const TreatmentSection = ({ category }: TreatmentSectionProps) => {
         <div className="lg:col-span-2 order-1 lg:order-2">
           <div className="sticky top-32">
             <img
-              src={category.image}
+              src={typeof category.image === "string" ? category.image : category.image.src}
               alt={category.title}
               className="w-full rounded-sm object-cover aspect-[4/3]"
             />
